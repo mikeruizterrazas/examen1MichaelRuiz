@@ -8,4 +8,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GESTIONDEEMPLEADOS.BSS\GESTIONDEEMPLEADOS.BSS.csproj" />
+    <ProjectReference Include="..\GESTIONDEEMPLEADOS.Modelos\GESTIONDEEMPLEADOS.Modelos.csproj" />
+  </ItemGroup>
+
 </Project>

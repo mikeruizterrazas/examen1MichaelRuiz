@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="E:\examen1\examen1michalruiz\conexion.cs" Link="conexion.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GESTIONDEEMPLEADOS.Modelos\GESTIONDEEMPLEADOS.Modelos.csproj" />
+  </ItemGroup>
+
 </Project>
